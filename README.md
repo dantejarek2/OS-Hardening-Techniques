@@ -8,7 +8,7 @@ Several hours after the attack, multiple customers emailed yummyrecipesforme’s
 
 In response to this incident, the website owner tries to log in to the admin panel but is unable to, so they reach out to the website hosting provider. You and other cybersecurity analysts are tasked with investigating this security event.
 
-To address the incident, you create a sandbox environment to observe the suspicious website behavior. You run the network protocol analyzer tcpdump, then type in the URL for the website, yummyrecipesforme.com. As soon as the website loads, you are prompted to download an executable file to update your browser. You accept the download and allow the file to run. You then observe that your browser redirects you to a different URL, greatrecipesforme.com, which contains the malware.  
+To address the incident, a sandbox environment was used to observe the suspicious website behavior. Tcpdump, a network analyzer, was utilized and the website was reloaded, yummyrecipesforme.com. As soon as the website loads, a prompt to download an executable file to update the browser appears. Accepting the download and allowing the file to run redirects the browser to a different URL, greatrecipesforme.com, which contains the malware.  
 
 The logs show the following process:
 
@@ -24,4 +24,4 @@ A senior analyst confirms that the website was compromised. The analyst checks t
 
 The cybersecurity team reports that the web server was impacted by a brute force attack. The disgruntled hacker was able to guess the password easily because the admin password was still set to the default password. Additionally, there were no controls in place to prevent a brute force attack. 
 
-Your job is to document the incident in detail, including identifying the network protocols used to establish the connection between the user and the website.  You should also recommend a security action to take to prevent brute force attacks in the future.
+Documentation of the incident in detail, including identifying the network protocols used to establish the connection between the user and the website is required, along with any security action recommendations to take to prevent brute force attacks in the future.
